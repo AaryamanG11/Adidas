@@ -1,0 +1,108 @@
+header{
+    background-color: black;
+    color: white;
+    margin-top: -5px;
+    padding: 1px;
+}
+
+nav{
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+#part1{
+    width: 20%;
+    text-align: center;
+}
+
+#part2{
+    width: 60%;
+    text-align: center;
+}
+
+#part3{
+    width: 20%;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: white;
+    text-align: center;
+    padding-right: 5px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#sale-div{
+    background-color: lightgray;
+    color: black;
+    margin-top: -5px;
+    padding: 1px;
+}
+
+a{
+    color: black;
+}
+
+.types{
+    display: inline-block;
+}
+
+#ultraboost{
+    width: 49%;
+    padding: 5px;
+    float: left;
+}
+
+#originals{
+    width: 49%;
+    padding: 5px;
+    float: left;
+}
+
+body{
+    text-align: left;
+    padding-right: 5px;
+}
+
+#gender{
+    color: grey;
+}
+
+.shoe-type, .shoes{
+    display: inline-block;
+}
+.shoes{
+    width: 24%;
+ 
+}
+
+.shoes:hover{
+    border: 2px black solid;
+}
+
+button {
+    background-color: lightgray; 
+    border: none;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  }
